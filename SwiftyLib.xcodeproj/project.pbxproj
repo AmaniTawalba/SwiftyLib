@@ -10,6 +10,13 @@
 		06F2F44827B2B351006FBEDF /* SwiftyLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06F2F43E27B2B351006FBEDF /* SwiftyLib.framework */; };
 		06F2F44D27B2B351006FBEDF /* SwiftyLibTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06F2F44C27B2B351006FBEDF /* SwiftyLibTests.swift */; };
 		06F2F44F27B2B351006FBEDF /* SwiftyLib.h in Headers */ = {isa = PBXBuildFile; fileRef = 06F2F44127B2B351006FBEDF /* SwiftyLib.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		06F2F45F27B2B37E006FBEDF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06F2F45E27B2B37E006FBEDF /* AppDelegate.swift */; };
+		06F2F46127B2B37E006FBEDF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06F2F46027B2B37E006FBEDF /* SceneDelegate.swift */; };
+		06F2F46327B2B37E006FBEDF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06F2F46227B2B37E006FBEDF /* ViewController.swift */; };
+		06F2F46627B2B37E006FBEDF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06F2F46427B2B37E006FBEDF /* Main.storyboard */; };
+		06F2F46827B2B380006FBEDF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 06F2F46727B2B380006FBEDF /* Assets.xcassets */; };
+		06F2F46B27B2B380006FBEDF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06F2F46927B2B380006FBEDF /* LaunchScreen.storyboard */; };
+		06F2F47127B2B851006FBEDF /* SwiftyLib.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06F2F47027B2B851006FBEDF /* SwiftyLib.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +36,15 @@
 		06F2F44727B2B351006FBEDF /* SwiftyLibTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftyLibTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		06F2F44C27B2B351006FBEDF /* SwiftyLibTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftyLibTests.swift; sourceTree = "<group>"; };
 		06F2F44E27B2B351006FBEDF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		06F2F45C27B2B37E006FBEDF /* SwiftyLibExamples.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftyLibExamples.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		06F2F45E27B2B37E006FBEDF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		06F2F46027B2B37E006FBEDF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		06F2F46227B2B37E006FBEDF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		06F2F46527B2B37E006FBEDF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		06F2F46727B2B380006FBEDF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		06F2F46A27B2B380006FBEDF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		06F2F46C27B2B380006FBEDF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		06F2F47027B2B851006FBEDF /* SwiftyLib.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftyLib.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +63,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		06F2F45927B2B37E006FBEDF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -55,6 +78,7 @@
 			children = (
 				06F2F44027B2B351006FBEDF /* SwiftyLib */,
 				06F2F44B27B2B351006FBEDF /* SwiftyLibTests */,
+				06F2F45D27B2B37E006FBEDF /* SwiftyLibExamples */,
 				06F2F43F27B2B351006FBEDF /* Products */,
 			);
 			sourceTree = "<group>";
@@ -64,6 +88,7 @@
 			children = (
 				06F2F43E27B2B351006FBEDF /* SwiftyLib.framework */,
 				06F2F44727B2B351006FBEDF /* SwiftyLibTests.xctest */,
+				06F2F45C27B2B37E006FBEDF /* SwiftyLibExamples.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -73,6 +98,7 @@
 			children = (
 				06F2F44127B2B351006FBEDF /* SwiftyLib.h */,
 				06F2F44227B2B351006FBEDF /* Info.plist */,
+				06F2F47027B2B851006FBEDF /* SwiftyLib.swift */,
 			);
 			path = SwiftyLib;
 			sourceTree = "<group>";
@@ -84,6 +110,20 @@
 				06F2F44E27B2B351006FBEDF /* Info.plist */,
 			);
 			path = SwiftyLibTests;
+			sourceTree = "<group>";
+		};
+		06F2F45D27B2B37E006FBEDF /* SwiftyLibExamples */ = {
+			isa = PBXGroup;
+			children = (
+				06F2F45E27B2B37E006FBEDF /* AppDelegate.swift */,
+				06F2F46027B2B37E006FBEDF /* SceneDelegate.swift */,
+				06F2F46227B2B37E006FBEDF /* ViewController.swift */,
+				06F2F46427B2B37E006FBEDF /* Main.storyboard */,
+				06F2F46727B2B380006FBEDF /* Assets.xcassets */,
+				06F2F46927B2B380006FBEDF /* LaunchScreen.storyboard */,
+				06F2F46C27B2B380006FBEDF /* Info.plist */,
+			);
+			path = SwiftyLibExamples;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,6 +176,23 @@
 			productReference = 06F2F44727B2B351006FBEDF /* SwiftyLibTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		06F2F45B27B2B37E006FBEDF /* SwiftyLibExamples */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 06F2F46D27B2B380006FBEDF /* Build configuration list for PBXNativeTarget "SwiftyLibExamples" */;
+			buildPhases = (
+				06F2F45827B2B37E006FBEDF /* Sources */,
+				06F2F45927B2B37E006FBEDF /* Frameworks */,
+				06F2F45A27B2B37E006FBEDF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftyLibExamples;
+			productName = SwiftyLibExamples;
+			productReference = 06F2F45C27B2B37E006FBEDF /* SwiftyLibExamples.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -147,8 +204,12 @@
 				TargetAttributes = {
 					06F2F43D27B2B351006FBEDF = {
 						CreatedOnToolsVersion = 12.5;
+						LastSwiftMigration = 1250;
 					};
 					06F2F44627B2B351006FBEDF = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					06F2F45B27B2B37E006FBEDF = {
 						CreatedOnToolsVersion = 12.5;
 					};
 				};
@@ -168,6 +229,7 @@
 			targets = (
 				06F2F43D27B2B351006FBEDF /* SwiftyLib */,
 				06F2F44627B2B351006FBEDF /* SwiftyLibTests */,
+				06F2F45B27B2B37E006FBEDF /* SwiftyLibExamples */,
 			);
 		};
 /* End PBXProject section */
@@ -187,6 +249,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		06F2F45A27B2B37E006FBEDF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06F2F46B27B2B380006FBEDF /* LaunchScreen.storyboard in Resources */,
+				06F2F46827B2B380006FBEDF /* Assets.xcassets in Resources */,
+				06F2F46627B2B37E006FBEDF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -194,6 +266,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				06F2F47127B2B851006FBEDF /* SwiftyLib.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -202,6 +275,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				06F2F44D27B2B351006FBEDF /* SwiftyLibTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		06F2F45827B2B37E006FBEDF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06F2F46327B2B37E006FBEDF /* ViewController.swift in Sources */,
+				06F2F45F27B2B37E006FBEDF /* AppDelegate.swift in Sources */,
+				06F2F46127B2B37E006FBEDF /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -214,6 +297,25 @@
 			targetProxy = 06F2F44927B2B351006FBEDF /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		06F2F46427B2B37E006FBEDF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				06F2F46527B2B37E006FBEDF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		06F2F46927B2B380006FBEDF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				06F2F46A27B2B380006FBEDF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		06F2F45027B2B351006FBEDF /* Debug */ = {
@@ -341,6 +443,7 @@
 		06F2F45327B2B351006FBEDF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 7238S8QJ45;
@@ -357,6 +460,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.GateToPay.SwiftyLib.SwiftyLib;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -365,6 +469,7 @@
 		06F2F45427B2B351006FBEDF /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 7238S8QJ45;
@@ -389,6 +494,7 @@
 		06F2F45627B2B351006FBEDF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7238S8QJ45;
 				INFOPLIST_FILE = SwiftyLibTests/Info.plist;
@@ -407,6 +513,7 @@
 		06F2F45727B2B351006FBEDF /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7238S8QJ45;
 				INFOPLIST_FILE = SwiftyLibTests/Info.plist;
@@ -416,6 +523,44 @@
 					"@loader_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.GateToPay.SwiftyLib.SwiftyLibTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		06F2F46E27B2B380006FBEDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7238S8QJ45;
+				INFOPLIST_FILE = SwiftyLibExamples/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.GateToPay.SwiftyLibExamples.SwiftyLibExamples;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		06F2F46F27B2B380006FBEDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7238S8QJ45;
+				INFOPLIST_FILE = SwiftyLibExamples/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.GateToPay.SwiftyLibExamples.SwiftyLibExamples;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -448,6 +593,15 @@
 			buildConfigurations = (
 				06F2F45627B2B351006FBEDF /* Debug */,
 				06F2F45727B2B351006FBEDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		06F2F46D27B2B380006FBEDF /* Build configuration list for PBXNativeTarget "SwiftyLibExamples" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				06F2F46E27B2B380006FBEDF /* Debug */,
+				06F2F46F27B2B380006FBEDF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
