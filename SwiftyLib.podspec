@@ -8,7 +8,7 @@ Pod::Spec.new do |spec|
 This CocoaPods library helps you perform calculation.
                    DESC
 
-  spec.homepage     = "https://github.com/jeantimex/SwiftyLib"
+  spec.homepage     = "https://github.com/amani/SwiftyLib"
   spec.license      = { :type => "MIT", :file => "LICENSE" }
   spec.author       = { "jeantimex" => "jean.timex@gmail.com" }
 
