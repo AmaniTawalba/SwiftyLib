@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
 
-  spec.name         = "SwiftyLib"
+  spec.name         = "AmaniPod"
   spec.version      = "0.0.2"
   spec.summary      = "A CocoaPods library written in Swift"
 
