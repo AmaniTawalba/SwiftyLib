@@ -8,14 +8,14 @@ Pod::Spec.new do |spec|
 This CocoaPods library helps you perform calculation.
                    DESC
 
-  spec.homepage     = "https://github.com/amani/SwiftyLib"
+  spec.homepage     = "https://github.com/AmaniTawalba/SwiftyLib"
   spec.license      = { :type => "MIT", :file => "LICENSE" }
-  spec.author       = { "jeantimex" => "jean.timex@gmail.com" }
+  spec.author       = { "jeantimex" => "mohammedamane1@gmail.com" }
 
   spec.ios.deployment_target = "12.1"
   spec.swift_version = "4.2"
 
-  spec.source        = { :git => "https://github.com/jeantimex/SwiftyLib.git", :tag => "#{spec.version}" }
+  spec.source        = { :git => "https://github.com/AmaniTawalba/SwiftyLib.git", :tag => "#{spec.version}" }
   spec.source_files  = "SwiftyLib/**/*.{h,m,swift}"
 
 end
